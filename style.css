@@ -1,0 +1,27 @@
+body{
+background-image: url(R.gif);
+margin-bottom: 350px;
+margin-left: 290px;
+margin-right: 290px;
+margin-top: 190px;
+
+
+
+}.grid-container {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 17px;
+  margin-bottom: 250px;
+  margin-top: 150;
+}
+.grid-container > div {
+  background-color: #EEDEC5;
+  color: #000;
+  padding: 15px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 12px;
+}
